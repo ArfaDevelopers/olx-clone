@@ -16,7 +16,7 @@ export const getPostsApiBikes = async () => {
 };
 
 export const getPostsApiMobiles = async () => {
-  let res = await axios.get(`http://localhost:3001/Mobiless`);
+  let res = await axios.get(`http://localhost:3001/Mobiles`);
   return res.data;
 };
 
