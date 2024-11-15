@@ -24,7 +24,7 @@ const ProductCars = () => {
   const { data, loading } = useSelector((store) => store.product);
 
   const dispatch = useDispatch();
-  console.log("ProductCars", data);
+  // console.log("ProductCars", data);
   useEffect(() => {
     setTimeout(() => {
       dispatch(getPostsCars());

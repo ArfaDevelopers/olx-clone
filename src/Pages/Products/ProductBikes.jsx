@@ -36,7 +36,7 @@ const ProductBikes = () => {
   const { data, loading } = useSelector((store) => store.product);
 
   const dispatch = useDispatch();
-  console.log("ProductBikes", data);
+  // console.log("ProductBikes", data);
   useEffect(() => {
     setTimeout(() => {
       dispatch(getPostsBikes());

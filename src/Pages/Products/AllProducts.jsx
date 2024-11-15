@@ -28,7 +28,7 @@ const AllProducts = () => {
   const { loading, data } = useSelector((store) => store.product);
   const dispatch = useDispatch();
 
-  console.log("allProducts", data);
+  // console.log("allProducts", data);
 
   useEffect(() => {
     setTimeout(() => {

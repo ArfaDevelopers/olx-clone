@@ -27,7 +27,7 @@ import { Link } from "react-router-dom";
 const ProductHouse = () => {
   const { data, loading } = useSelector((store) => store.product);
 
-  console.log("ProductHouse", data);
+  // console.log("ProductHouse", data);
 
   const dispatch = useDispatch();
 
